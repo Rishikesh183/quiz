@@ -5,14 +5,12 @@ import { quizzes } from "@/data/quizzes";
 import { useUser } from "@clerk/clerk-react";
 const Quizzes = () => {
   const user = useUser()
+  console.log(user)
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">Available Quizzes</h1>
-      {
-       !user && 
-       <h2 className="text-xl font-sans mb-4">Note : Sign-up to see your dashboard performance</h2>
-      }
-      
+      <p>{!user.isSignedIn && 
+       <h2 className="text-xl font-sans mb-4">Note : Sign-up to see your dashboard performance</h2>}</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {quizzes.map((quiz) => (
           <Link to={`/quiz/${quiz.id}`} key={quiz.id}>
