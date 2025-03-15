@@ -100,6 +100,45 @@ export const quizzes: Quiz[] = [
             "correctAnswer": "Graham Gooch"
         }
     ]
+},
+  {
+    "id": "2",
+    "title": "Memory challange",
+    "description": "Test your cricket knowledge with these Memory based questions!",
+    "category": "Cricket",
+    "image": "https://cdn.wallpapersafari.com/59/71/xgBf2n.jpg",
+    "questions": [
+        {
+            "id": "cric-1",
+            "question": "who was the highest run scorer for Mumbai indians in ipl 2017",
+            "options": ["Rohit Sharma", "Kieron Pollard", "Krunal Pandya", "Surya Kumar Yadav"],
+            "correctAnswer": "Krunal Pandya"
+        },
+        {
+            "id": "cric-2",
+            "question": "Who won the POTM in the match when Yuvraj scored 6 sixes",
+            "options": ["Gautam Gambhir", "Yuvraj Singh", "Ms Dhoni", "Virendra sehwag"],
+            "correctAnswer": "Yuvraj Singh"
+        },
+        {
+            "id": "cric-3",
+            "question": "In the famous 1986 tie between ind vs aus who was the only indian to score a century",
+            "options": ["K Srikanth", "Sachin Tendulkar", "sunil gavaskar", "Kapil dev"],
+            "correctAnswer": "Kapil dev"
+        },
+        {
+            "id": "cric-4",
+            "question": "In the finals of 2016 which batter hit a 100m+ sixer in first innings",
+            "options": ["David Warner", "Ben Cutting", "Yuvraj singh", "Chris Gayle"],
+            "correctAnswer": "Ben Cutting"
+        },
+        {
+            "id": "cric-5",
+            "question": "In a match against india azaz patel took a 10W haul , Who was the leading run scorer of that particular innings",
+            "options": ["Mayank Agarwal", "Rohit Sharma", "Rishab Pant", "Shreyas Iyer"],
+            "correctAnswer": "Mayank Agarwal"
+        }
+    ]
 }
 
 ];
